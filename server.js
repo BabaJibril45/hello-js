@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/user', (req, res) => {
-  const {name, email} = req.body;
+  const { name, email } = req.body;
 
 
 // Check for missing data (Return 400)
